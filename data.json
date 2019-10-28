@@ -1,0 +1,36 @@
+{
+  "pricingRules": [
+    {
+      "type": "freeItem",
+      "beneficiaryCondition": {
+        "amount": 1,
+        "sku": "mbp"
+      },
+      "prize": {
+        "amount": 1,
+        "sku": "vga"
+      }
+    },
+    {
+      "type": "discount",
+      "beneficiaryCondition": {
+        "amount": 3,
+        "sku": "atv"
+      },
+      "prize": {
+        "fraction": 1.0
+      }
+    },
+    {
+      "type": "discount",
+      "beneficiaryCondition": {
+        "amount": 4,
+        "sku": "ipd"
+      },
+      "prize": {
+        "amount": 50,
+        "bulk": true
+      }
+    }
+  ]
+}
